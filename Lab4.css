@@ -1,0 +1,151 @@
+/* Basic reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    background-color: red; /* Red background for the body */
+    font-family: Arial, sans-serif;
+    color: #333;
+  }
+  
+  /* Header Section */
+  .firstdiv {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .header {
+    font-size: 36px;
+    font-weight: bold;
+    color: #fff;
+    margin-bottom: 10px;
+  }
+  
+  .image {
+    width: 120px;
+    height: 135px;
+    border-radius: 8px;
+    margin-top: 10px;
+  }
+  
+  /* Navigation Section */
+  .headings {
+    text-align: center;
+    margin-top: 30px;
+  }
+  
+  .headings h2 {
+    display: inline-block;
+    margin: 0 15px;
+    color: white;
+    font-size: 22px;
+    cursor: pointer;
+  }
+  
+  .headings h2:hover {
+    text-decoration: underline;
+    color: yellow;
+  }
+  
+  /* Welcome Section */
+  .welcome {
+    font-size: 22px;
+    font-weight: bold;
+    color: #fff;
+    text-align: center;
+    margin-top: 40px;
+  }
+  
+  b {
+    display: block;
+    font-size: 20px;
+    color: #fff;
+    text-align: center;
+    margin-top: 10px;
+  }
+  
+  /* Services & Clients Section */
+  .pair {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 30px;
+  }
+  
+  ol {
+    font-size: 18px;
+    line-height: 1.8;
+    color: #fff;
+  }
+  
+  ul {
+    font-size: 18px;
+    line-height: 1.8;
+    color: #fff;
+  }
+  
+  ul a {
+    color: yellow;
+    text-decoration: none;
+  }
+  
+  ul a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Table Styling */
+  table {
+    width: 60%;
+    margin: 40px auto;
+    border-collapse: collapse;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  td {
+    padding: 15px;
+    text-align: center;
+    border: 1px solid #ddd;
+    vertical-align: top;
+    font-size: 18px;
+  }
+  
+  td p {
+    margin: 5px 0;
+    font-weight: bold;
+  }
+  
+  /* Inner Table */
+  table.border {
+    width: 100%;
+    margin-top: 15px;
+    border-collapse: collapse;
+  }
+  
+  table.border td {
+    background-color: #f8f8f8;
+    color: #555;
+    text-align: center;
+  }
+  
+  table.border tr:hover td {
+    background-color: #e0e0e0;
+  }
+  
+  /* List for available days */
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  ul li {
+    background-color: #f1f1f1;
+    margin: 5px 0;
+    padding: 8px;
+    border-radius: 5px;
+    color: #333;
+  }
+  
