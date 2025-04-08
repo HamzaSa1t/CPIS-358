@@ -6,7 +6,7 @@ body {
     min-height: 100vh; 
     background: linear-gradient(to bottom right, #e0eafc, #cfdef3); 
     color: #333; 
-    position: relative; /* Add this to create a stacking context */
+    position: relative; /* Add this to cggggreate a stacking context */
 }
 
 .headd{
