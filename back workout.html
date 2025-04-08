@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Back Workout Plan</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h2 align="center"><i>Back Workout Plan</i></h2>
+    <br/>
+
+    <table border="1" align="center" cellpadding="15" cellspacing="0" id="workoutTable">
+        <tr>
+            <th>Select</th>
+            <th>Exercise</th>
+            <th>Sets</th>
+            <th>Reps</th>
+            <th>Rest Time</th>
+            <th>Exercise Time</th>
+            <th>Wait Time</th>
+        </tr>
+
+        <tr class="row1">
+            <td><input type="checkbox" class="exercise-check" data-name="Deadlifts" data-time="15"></td>
+            <td>Deadlifts</td>
+            <td>4</td>
+            <td>6-10</td>
+            <td>90 sec</td>
+            <td>15 minutes</td>
+            <td class="wait-time">0 minutes</td>
+        </tr>
+        <tr>
+            <td><input type="checkbox" class="exercise-check" data-name="Pull-Ups" data-time="8"></td>
+            <td>Pull-Ups</td>
+            <td>3</td>
+            <td>8-12</td>
+            <td>60 sec</td>
+            <td>8 minutes</td>
+            <td class="wait-time">0 minutes</td>
+        </tr>
+        <tr class="row1">
+            <td><input type="checkbox" class="exercise-check" data-name="Seated Cable Rows" data-time="10"></td>
+            <td>Seated Cable Rows</td>
+            <td>4</td>
+            <td>10-12</td>
+            <td>60 sec</td>
+            <td>10 minutes</td>
+            <td class="wait-time">0 minutes</td>
+        </tr>
+        <tr>
+            <td><input type="checkbox" class="exercise-check" data-name="Lat Pulldowns" data-time="10"></td>
+            <td>Lat Pulldowns</td>
+            <td>4</td>
+            <td>10-12</td>
+            <td>60 sec</td>
+            <td>10 minutes</td>
+            <td class="wait-time">0 minutes</td>
+        </tr>
+        <tr class="row1">
+            <td><input type="checkbox" class="exercise-check" data-name="Face Pulls" data-time="6"></td>
+            <td>Face Pulls</td>
+            <td>3</td>
+            <td>12-15</td>
+            <td>45 sec</td>
+            <td>6 minutes</td>
+            <td class="wait-time">0 minutes</td>
+        </tr>
+        <tr>
+            <td><input type="checkbox" class="exercise-check" data-name="T-Bar Rows" data-time="10"></td>
+            <td>T-Bar Rows</td>
+            <td>4</td>
+            <td>8-12</td>
+            <td>60 sec</td>
+            <td>10 minutes</td>
+            <td class="wait-time">0 minutes</td>
+        </tr>
+    </table>
+
+    <br/>
+    <div align="center">
+        <button onclick="confirmWorkout()">Confirm Workout Plan</button>
+    </div>
+    <br/>
+    <div align="center">
+        <a href="specific-muscle.html"><h4>Back to Home</h4></a>
+    </div>
+
+    <!-- javascript -->
+    <script src="workout-planner.js"></script>
+
+</body>
+</html>
