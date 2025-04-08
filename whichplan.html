@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+    <meta charset="UTF-8">
+    <title>Workout Selector</title>
+    <link rel="stylesheet" href="style.css">
+
+    <style>
+
+.headd{
+    background-color: darkgoldenrod;
+    width: 100%; /* Set width to 100% */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove padding */
+}
+ 
+main {
+    flex: 1; 
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    padding: 20px;
+}
+ 
+.firstdiv{
+align-content: center; 
+text-align: center;
+}
+.content-container {  
+    background-color: white; 
+    padding: 30px;
+    border-radius: 8px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    max-width: 800px; 
+    width: 90%; 
+    text-align: center; 
+}
+
+.headings{
+    display: flex;
+    justify-content: center; /* Centers the h2 elements horizontally */
+    align-items: center; /* Vertically aligns if needed */
+    gap: 20px; /* Space between the h2 elements */
+    margin-bottom: 20px;
+}
+
+/* Prevent link color change on click */
+a:link {
+  color: black;
+  text-decoration: none;
+}
+
+a:visited {
+  color: black;
+  text-decoration: none;
+}
+
+a:hover {
+  color: black;
+  text-decoration: none;
+}
+
+a:active {
+  color: black;
+  text-decoration: none;
+}
+
+.button-like {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #ddd;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  text-align: center;
+  margin: 5px;
+}
+
+    </style>
+</head>
+<body>
+
+  <div class="headd">
+
+    <div class="firstdiv">
+        <h1 class="header">Fitness Time</h1>
+        <img src="image.png" class="image" alt="logo" width=120 height=135>
+    </div>
+
+    <div class="headings">
+        <h2>
+            <div class="button-like"><a href="../home.html">Home</a></div>
+        </h2>
+        <h2>
+            <div class="button-like"><a href="../contact.html">Contact Us</a></div>
+        </h2>
+        <h2>
+            <div class="button-like"><a href="whichplan.html">creat your plan</a></div>
+        </h2>
+    </div>
+</div>
+
+    <h2 style="text-align:center;" \><i>What are you targeting?</i></h2>
+    <br>
+
+    <ul style="list-style-type:none; text-align: center;">
+        <li>
+            <div class="image-wrapper">
+              <p class="image-title">Push / Pull</p> 
+              <a href="push.html">
+                <img src="https://hips.hearstapps.com/hmg-prod/images/young-fit-hispanic-man-in-the-gym-lifting-heavy-royalty-free-image-1700496278.jpg?crop=1xw:0.86793xh;center,top&resize=1200:*"
+                     class="bg" alt="Workout Background">
+                <img src="https://hips.hearstapps.com/hmg-prod/images/young-fit-hispanic-man-in-the-gym-lifting-heavy-royalty-free-image-1700496278.jpg?crop=1xw:0.86793xh;center,top&resize=1200:*"
+                     class="fg" alt="Workout Foreground">
+              </a>
+            </div>
+          </li>
+        
+        <br>
+    
+        <li>
+            <div class="image-wrapper">
+              <p class="image-title">Upper / Lower</p> 
+              <a href="upper.html">
+                <img src="https://www.maxxproboxing.com/wp-content/uploads/2025/01/shutterstock_2453344961.jpg"
+                     class="bg" alt="Workout Background">
+                <img src="https://www.maxxproboxing.com/wp-content/uploads/2025/01/shutterstock_2453344961.jpg"
+                     class="fg" alt="Workout Foreground">
+              </a>
+            </div>
+          </li>
+        <br>
+        <li>
+            <div class="image-wrapper">
+              <p class="image-title">Specific Muscle</p> 
+              <a href="specific-muscle.html">
+                <img src="https://www.clipstudio.net/wp-content/uploads/2020/10/0139_000_en-us.jpg"
+                     class="bg" alt="Workout Background">
+                <img src="https://www.clipstudio.net/wp-content/uploads/2020/10/0139_000_en-us.jpg"
+                     class="fg" alt="Workout Foreground">
+              </a>
+            </div>
+          </li>
+        
+    </ul>
+
+    <br><br><br><br>
+
+    <h5 style="text-align:center;">
+        <u>Select a method to plan your workout</u>
+    </h5>
+
+</body>
+</html>

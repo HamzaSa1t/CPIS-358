@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <title>Your Workout Plan</title>
+
+</head>
+<body>
+    <div class="headd">
+
+        <div class="firstdiv">
+            <h1 class="header">Fitness Time</h1>
+            <img src="image.png" class="image" alt="logo" width=120 height=135>
+        </div>
+    
+        <div class="headings">
+            <h2><a href="../home.html">Home</a></h2>
+            <h2><a href="../contact.html">Contact Us</a></h2>
+            <h2><a href="whichplan.html">creat your plan</a></h2>
+        </div>
+    </div>
+
+    <h1>Your Workout Plan</h1>
+
+    <!-- ✅ Table where exercises will be displayed -->
+    <table id="exerciseTable">
+        <thead>
+            <tr>
+                <th>Exercise</th>
+                <th>Duration (minutes)</th>
+            </tr>
+        </thead>
+        <tbody>
+            <!-- JS will fill this -->
+        </tbody>
+    </table>
+
+    <!-- ✅ Summary Info -->
+    <div class="info">
+        <p>Workout Time: <span id="workoutTime">0</span> minutes</p>
+        <p>Wait Time: <span id="waitTime">0</span> minutes</p>
+        <p><b>Total Time: <span id="totalTime">0</span> minutes</b></p>
+    </div>
+
+    <div style="margin-top: 30px;">
+        <a id="backLink" href="#">← Back to Workout Page</a>
+    </div>
+    
+
+
+
+    <script src="workout.js"></script>
+</body>
+</html>

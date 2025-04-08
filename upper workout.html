@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Upper Workout Plan</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <div class="headd">
+
+        <div class="firstdiv">
+            <h1 class="header">Fitness Time</h1>
+            <img src="image.png" class="image" alt="logo" width=120 height=135>
+        </div>
+    
+        <div class="headings">
+            <h2><a href="../home.html">Home</a></h2>
+            <h2><a href="../contact.html">Contact Us</a></h2>
+            <h2><a href="whichplan.html">creat your plan</a></h2>
+        </div>
+    </div>
+
+    <h2 align="center"><i>Upper Workout Plan</i></h2>
+    <br/>
+
+    <table border="1" align="center" cellpadding="15" cellspacing="0" id="workoutTable">
+        <tr>
+            <th>Select</th>
+            <th>Exercise</th>
+            <th>Muscle Group</th>
+            <th>Sets</th>
+            <th>Reps</th>
+            <th>Rest Time</th>
+            <th>Exercise Time</th>
+            <th>Wait Time</th>
+        </tr>
+
+        <!-- Chest -->
+        <tr class="row1">
+            <td><input type="checkbox" class="exercise-check" data-name="Barbell Bench Press" data-time="12"></td>
+            <td>Barbell Bench Press</td>
+            <td>Chest</td>
+            <td>4</td>
+            <td>8-10</td>
+            <td>90 sec</td>
+            <td>12 minutes</td>
+            <td class="wait-time">0 minutes</td>
+        </tr>
+        <tr>
+            <td><input type="checkbox" class="exercise-check" data-name="Incline Dumbbell Press" data-time="10"></td>
+            <td>Incline Dumbbell Press</td>
+            <td>Chest</td>
+            <td>3</td>
+            <td>8-12</td>
+            <td>90 sec</td>
+            <td>10 minutes</td>
+            <td class="wait-time">0 minutes</td>
+        </tr>
+
+        <!-- Shoulders -->
+        <tr class="row1">
+            <td><input type="checkbox" class="exercise-check" data-name="Seated Overhead Press" data-time="10"></td>
+            <td>Seated Overhead Press</td>
+            <td>Shoulders</td>
+            <td>4</td>
+            <td>8-10</td>
+            <td>90 sec</td>
+            <td>10 minutes</td>
+            <td class="wait-time">0 minutes</td>
+        </tr>
+        <tr>
+            <td><input type="checkbox" class="exercise-check" data-name="Lateral Raises" data-time="6"></td>
+            <td>Lateral Raises</td>
+            <td>Shoulders</td>
+            <td>3</td>
+            <td>12-15</td>
+            <td>60 sec</td>
+            <td>6 minutes</td>
+            <td class="wait-time">0 minutes</td>
+        </tr>
+
+        <!-- Back -->
+        <tr class="row1">
+            <td><input type="checkbox" class="exercise-check" data-name="Pull-Ups" data-time="8"></td>
+            <td>Pull-Ups</td>
+            <td>Back</td>
+            <td>3</td>
+            <td>10-12</td>
+            <td>60 sec</td>
+            <td>8 minutes</td>
+            <td class="wait-time">0 minutes</td>
+        </tr>
+        <tr>
+            <td><input type="checkbox" class="exercise-check" data-name="Seated Cable Rows" data-time="10"></td>
+            <td>Seated Cable Rows</td>
+            <td>Back</td>
+            <td>4</td>
+            <td>10-12</td>
+            <td>60 sec</td>
+            <td>10 minutes</td>
+            <td class="wait-time">0 minutes</td>
+        </tr>
+    </table>
+
+    <br/>
+    <div align="center">
+        <button onclick="confirmWorkout()">Confirm Workout Plan</button>
+    </div>
+    <br/>
+    <div align="center">
+        <a href="upper.html"><h4>Back to Home</h4></a>
+    </div>
+
+    <!-- ✅ Connect to planner script -->
+    <script src="workout-planner.js"></script>
+
+</body>
+</html>
