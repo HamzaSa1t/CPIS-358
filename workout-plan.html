@@ -2,6 +2,7 @@
 <html>
 <head>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="Lab4.css">
     <meta charset="UTF-8">
     <title>Your Workout Plan</title>
 
@@ -15,13 +16,14 @@
         </div>
     
         <div class="headings">
-            <h2><a href="../home.html">Home</a></h2>
-            <h2><a href="../contact.html">Contact Us</a></h2>
-            <h2><a href="whichplan.html">creat your plan</a></h2>
+            <h2><div class="button-like"><a href="home.html">Home</a></div></h2>
+            <h2><div class="button-like"><a href="contact.html">Contact Us</a></div></h2>
+            <h2><div class="button-like"><a href="whichplan.html">Create Your Plan</a></div></h2>
+            <h2><div class="button-like"><a href="sub.html">Subscriptions</a></div></h2>
         </div>
     </div>
 
-    <h1>Your Workout Plan</h1>
+    
 
     <!-- ✅ Table where exercises will be displayed -->
     <table id="exerciseTable">
@@ -37,19 +39,19 @@
     </table>
 
     <!-- ✅ Summary Info -->
-    <div class="info">
+    <div class="info" align="center">
         <p>Workout Time: <span id="workoutTime">0</span> minutes</p>
         <p>Wait Time: <span id="waitTime">0</span> minutes</p>
         <p><b>Total Time: <span id="totalTime">0</span> minutes</b></p>
     </div>
 
-    <div style="margin-top: 30px;">
+    <div style="margin-top: 30px;" align="center">
         <a id="backLink" href="#">← Back to Workout Page</a>
     </div>
     
 
 
-
-    <script src="workout.js"></script>
+    <script src="workout-planner.js"></script>
+   
 </body>
 </html>
