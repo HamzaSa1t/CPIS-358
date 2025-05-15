@@ -44,7 +44,34 @@ p {color: rgb(1, 101, 63); font-weight: bolder; font-style: arial; text-align: c
             text-align: center;
             margin: 5px;
         }
+    .auth-buttons {
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    z-index: 999;
+      display: inline-block;
+            padding: 10px 20px;
+            background-color: #ddd;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            text-align: center;
+            margin: 5px;
+}
 
+.mini-btn {
+    font-size: 14px;
+    padding: 6px 10px;
+    margin-right: 8px;
+    background-color: #eee;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    text-decoration: none;
+    color: #3d03ed;
+}
+
+.mini-btn:hover {
+    background-color: #ddd;
+}
 
    
 
@@ -150,6 +177,7 @@ tr {
     }
     
  
+
 
 .headd{
     background-color: darkblue;

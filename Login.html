@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login | Fitness Time</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <style>
+        .container {
+            max-width: 400px;
+            margin: 70px auto;
+            padding: 70px;
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        .form-group {
+            margin-bottom: 15px;
+        }
+        .form-control {
+            width: 100%;
+            padding: 8px 10px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+        .btn-primary {
+            background-color: #333;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            width: 100%;
+            margin-top: 10px;
+            cursor: pointer;
+        }
+        .btn-primary:hover {
+            background-color: #222;
+        }
+        .text-center {
+            text-align: center;
+        }
+        .button-like {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #ddd;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            text-align: center;
+            margin: 5px;
+        }
+        a:link, a:visited, a:hover, a:active {
+            color: black;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="headd">
+        <div class="firstdiv">
+            <h1 class="header">Fitness Time</h1>
+            <img src="image.png" class="image" alt="logo" width="120" height="135">
+        </div>
+         <div class="headings">
+            <h2><div class="button-like"><a href="home.html">Home</a></div></h2>
+            <h2><div class="button-like"><a href="contact.html">Contact Us</a></div></h2>
+            <h2><div class="button-like"><a href="whichplan.html">Create Your Plan</a></div></h2>
+            <h2><div class="button-like"><a href="sub.html">Subscriptions</a></div></h2>
+        </div>
+    </div>
+    <div class="auth-buttons">
+    <a href="login.html" class="button-like">Login</a>
+    <a href="register.html" class="button-like">Register</a>
+</div>
+
+    <div class="container">
+        <h2>Login</h2>
+        <form id="loginForm">
+            <div class="form-group">
+                <label for="name">Username:</label>
+                <input type="text" id="name" name="name" class="form-control" required>
+            </div>
+            <div class="form-group">
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" class="form-control" required>
+            </div>
+            <button type="submit" class="btn-primary">Login</button>
+        </form>
+        <div class="text-center">
+            <a href="Register.html">Don’t have an account? Register</a>
+        </div>
+    </div>
+   <script src =login.js></script>
+   <script src="workout-planner.js"></script>
+ \
+    
+</body>
+</html>
